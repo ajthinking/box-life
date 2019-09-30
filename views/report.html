@@ -1,0 +1,18 @@
+<head>
+        <link href="/stylesheets/style.css" rel="stylesheet">
+    </head>
+    <body class="max-w-5xl mx-auto">
+        <h1 class="flex justify-center font-black text-3xl italic text-green-500">{{ name }}!</h1>
+        <div class="bg-gray-100 flex flex-shrink-0 flex-wrap">
+            {{#points}}
+                <div class="w-4 h-4 bg-green-500 mr-1 mb-1"></div>            
+            {{/points}}
+            {{#upcoming_points}}
+                <div class="w-4 h-4 bg-gray-300 mr-1 mb-1"></div>            
+            {{/upcoming_points}}
+        </div>
+        <!--<script type="text/javascript" src="/vendor/pipe-dream/laravel-create/js/app.js"></script>-->
+    </body>
+    
+    
+    

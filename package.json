@@ -1,0 +1,18 @@
+{
+  "name": "box-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.1",
+    "mustache-express": "^1.3.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.1.2"
+  },
+  "scripts": {
+    "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css"
+  }
+}
